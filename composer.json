@@ -1,0 +1,29 @@
+{
+    "name": "coredump\/jdd-theme",
+    "description": "A cool bootstrap theme for JDD",
+    "type": "library",
+    "license": "LGPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Coredump\\JddTheme\\": "src\/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Callizaya",
+            "email": "davidcallizaya@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coredump\\JddTheme\\PackageServiceProvider"
+            ]
+        },
+        "icon": "fab fa-themeisle"
+    },
+    "scripts": {},
+    "require": {}
+}
